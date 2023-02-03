@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/icon/logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" /> -->
+    <title>Chrome Extensioin + Vanilla + JS + Vite App - Popup</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Options</h2>
+      <div class="form-group">
+        <label for="highlightToggle">Highlighting:</label>
+        <input type="checkbox" id="highlightToggle" onclick="ToggleHighlighting()">
+      </div>
+      <div class="form-group">
+        <label for="boldToggle">Bolding:</label>
+        <input type="checkbox" id="boldToggle" onclick="ToggleBolding()">
+      </div>
+      <div class="form-group">
+        <label for="linebreakToggle">Line Breaks:</label>
+        <input type="checkbox" id="linebreakToggle" onclick="ToggleLineBreaks()">
+      </div>
+      <div class="form-group">
+        <label for="bionicToggle">Bionic Reading:</label>
+        <input type="checkbox" id="bionicToggle" onclick="ToggleBionicReading()">
+      </div>
+      <div class="form-group">
+        <label for="fontToggle">Font Change:</label>
+        <input type="checkbox" id="fontToggle" onclick="ToggleFontChange()">
+      </div>
+      <div class="form-group">
+        <label for="spacingToggle">Spacing Adjustment:</label>
+        <input type="checkbox" id="spacingToggle" onclick="ToggleSpacingAdjustment()">
+      </div>
+      <div class="form-group">
+        <label for="distractionToggle">Distraction Removal:</label>
+        <input type="checkbox" id="distractionToggle" onclick="ToggleDistractionRemoval()">
+      </div>
+      <div class="form-group">
+        <label for="focusToggle">Focus Reading:</label>
+        <input type="checkbox" id="focusToggle" onclick="ToggleFocusReading()">
+      </div>
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <script type="module" src="popup/index.js"></script>
+  </body>
+</html>
